@@ -12,7 +12,7 @@ npm i @houchenz/fe-components-v3 --save
 // 引入所有组件
 import VElement from '@houchenz/fe-components-v3'
 // 引入样式
-import '@houchenz/fe-components-v3/dist/style.css'
+import '@houchenz/fe-components-v3/dist/index.css'
 
 import App from './App.vue'
 createApp(App).use(VElement).mount('#app')
